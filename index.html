@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__top">
+                    <a href="" class="logo">Kelvin</a>
+                    <nav id="nav" class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#" class="nav__link nav__link_active">Home</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Works</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Services</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">About</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Contact</a>
+                            </li>
+                        </ul>
+                        <button id="nav-btn" class="nav__button">
+                            <img id="nav-btn-img" src="img/icons/nav-open.svg" alt="nav button">
+                        </button>
+                    </nav>
+                </div>
+                <div class="header__row">
+                    <div data-aos="fade-right" class="header__content">
+                        <h1 class="header__title">
+                            Kelvin Kramer <br> <span>Designer & Developer</span>
+                        </h1>
+                        <p class="header__text">
+                            I’m a portrait, fashion and lifestyle photographer living In New York City. During my
+                            thirteen year tenure here.
+                        </p>
+                    </div>
+                    <div data-aos="fade-left" class="header__image">
+                        <img src="img/header/hero.png" alt="hero">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="services">
+            <div class="container">
+                <div class="services__row">
+                    <div class="card services__card">
+                        <div class="card__image">
+                            <img src="img/services/graphic.svg" alt="graphic">
+                        </div>
+                        <div class="card__body">
+                            <div class="card__title">
+                                UI/UX Design
+                            </div>
+                            <div class="card__text">
+                                Our design is translated into comprehensive digital environments built on latest
+                                development standards.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card services__card">
+                        <div class="card__image">
+                            <img src="img/services/startup.svg" alt="startup">
+                        </div>
+                        <div class="card__body">
+                            <div class="card__title">
+                                Development
+                            </div>
+                            <div class="card__text">
+                                Our design is translated into comprehensive digital environments built on latest
+                                development standards.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card services__card">
+                        <div class="card__image">
+                            <img src="img/services/browser.svg" alt="browser">
+                        </div>
+                        <div class="card__body">
+                            <div class="card__title">
+                                software testing
+                            </div>
+                            <div class="card__text">
+                                Our design is translated into comprehensive digital environments built on latest
+                                development standards.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <div class="container">
+                <div class="title portfolio__title">
+                    Portfolio
+                </div>
+                <div data-aos="zoom-in-up" class="project-card portfolio__project-card">
+                    <div class="project-card__image">
+                        <img src="img/portfolio/01.jpg" alt="project01">
+                    </div>
+                    <a href="#" class="project-card__link">Online fashion store - Homepage</a>
+                </div>
+                <div data-aos="zoom-in-up" class="project-card portfolio__project-card">
+                    <div class="project-card__image">
+                        <img src="img/portfolio/02.jpg" alt="project02">
+                    </div>
+                    <a href="#" class="project-card__link">Reebok Store - Concept</a>
+                </div>
+                <div data-aos="zoom-in-up" class="project-card portfolio__project-card">
+                    <div class="project-card__image">
+                        <img src="img/portfolio/03.jpg" alt="project03">
+                    </div>
+                    <a href="#" class="project-card__link">Braun Landing Page - Concept</a>
+                </div>
+            </div>
+        </section>
+
+        <section data-aos="zoom-in-up" class="contacts">
+            <div class="container">
+                <div class="title contacts__title">
+                    Contacts
+                </div>
+                <div class="contacts__text">
+                    <p>
+                        Want to know more or just chat? <br>
+                        You are welcome!
+                    </p>
+                </div>
+                <div class="button contacts__button">
+                    <a href="#!">Send message</a>
+                </div>
+                <div class="icons contacts__icons">
+                    <a href="#" class="icons__link"><img src="img/socials/LinkedIn.svg" alt="LinkedIn"></a>
+                    <a href="#" class="icons__link"><img src="img/socials/Instargam.svg" alt="Instargam"></a>
+                    <a href="#" class="icons__link"><img src="img/socials/Behance.svg" alt="Behance"></a>
+                    <a href="#" class="icons__link"><img src="img/socials/Dribble.svg" alt="Dribble"></a>
+                </div>
+                <div class="contacts__footer">
+                    <p>
+                        Like me on <br>
+                        LinkedIn, Instagram, Behance, Dribble
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
